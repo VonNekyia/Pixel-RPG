@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BelowPlayerTileset
+    uniqueID: 2606879209
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Players
+    uniqueID: 2269662933
+    locked: 0
+  - name: AbovePlayerTileset
+    uniqueID: 1944332345
+    locked: 0
+  - name: UICanvas
+    uniqueID: 444090915
+    locked: 0
