@@ -19,6 +19,7 @@ public enum ClientToServerID : ushort
     name = 1,
     input = 2,
     playerMessageSender = 3,
+    isAttacking = 4,
 }
 
 public class NetworkManager : MonoBehaviour

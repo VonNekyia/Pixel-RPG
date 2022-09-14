@@ -47,17 +47,19 @@ public class ChatSystem : MonoBehaviour
     
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Return) && !Singleton.header.activeSelf)
+
+        if (Input.GetKeyDown(KeyCode.Return) && !Singleton.header.activeSelf) //Chat aktivieren 
         {
             header.SetActive(true);
             fadeChatIn();
-            
         }
-        if (Input.GetKeyDown(KeyCode.Return) && !chatInputField.isFocused)
+        
+        if (Input.GetKeyDown(KeyCode.Return) && !chatInputField.isFocused) //ChatInputFeld aktivieren
         {
             chatInputField.gameObject.SetActive(true);
         }
-        if(chatInputField.text != "")
+     
+        if(chatInputField.text != "") // Message senden wenn Chat nicht leer ist
             if (Input.GetKeyDown(KeyCode.Return))
             {
                 sendMessage();
@@ -65,7 +67,8 @@ public class ChatSystem : MonoBehaviour
                 chatInputField.gameObject.SetActive(false);
             }
             else
-        if(!chatInputField.isFocused && Input.GetKeyDown(KeyCode.Return))
+            
+        if(!chatInputField.isFocused && Input.GetKeyDown(KeyCode.Return)) //
             chatInputField.ActivateInputField();
 
         if (fadeIn)

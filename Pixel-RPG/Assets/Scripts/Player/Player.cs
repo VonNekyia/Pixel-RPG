@@ -89,6 +89,16 @@ public class Player : MonoBehaviour
         list.Add(id,player);
     }
 
+    public void lockMovement()
+    {
+        PlayerController.Singleton.canMove = false;
+    }
+    
+    public void unLockMovement()
+    {
+        PlayerController.Singleton.canMove = true;
+    }
+
     #region Messages
     [MessageHandler((ushort)ServerToClientID.playerSpawned)]
     private static void SpawnPlayer(Message message)
