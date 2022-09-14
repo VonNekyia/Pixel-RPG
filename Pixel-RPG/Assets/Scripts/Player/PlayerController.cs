@@ -27,7 +27,7 @@ public class PlayerController : MonoBehaviour
     }
 
     private bool[] inputs;
-    bool isAttacking;
+    bool isAttacking = true;
     public bool canMove;
 
     public void Awake()
@@ -58,7 +58,7 @@ public class PlayerController : MonoBehaviour
         }
         if (Input.GetMouseButtonDown(0)) // LeftClick Attack
         {
-            PlayerAnimationManager.Singleton.Attacking();
+            SendAttack();
         }
     }
 
@@ -83,6 +83,7 @@ public class PlayerController : MonoBehaviour
 
     private void SendInput()
     {
+        Debug.Log("x");
         Message message = Message.Create(MessageSendMode.unreliable, ClientToServerID.input);
         message.AddBools(inputs, false);
         NetworkManager.Singleton.Client.Send(message);
@@ -90,7 +91,7 @@ public class PlayerController : MonoBehaviour
     
     private void SendAttack()
     {
-        Message message = Message.Create(MessageSendMode.unreliable, ClientToServerID.isAttacking);
+        Message message = Message.Create(MessageSendMode.reliable, ClientToServerID.isAttacking);
         message.AddBool(isAttacking);
         NetworkManager.Singleton.Client.Send(message);
     }

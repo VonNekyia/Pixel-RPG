@@ -98,6 +98,7 @@ public class Player : MonoBehaviour
     {
         PlayerController.Singleton.canMove = true;
     }
+    
 
     #region Messages
     [MessageHandler((ushort)ServerToClientID.playerSpawned)]
@@ -122,6 +123,19 @@ public class Player : MonoBehaviour
    
     }
 
+    [MessageHandler((ushort)ServerToClientID.playerAttack)]
+    private static void PlayerIsAttacking(Message message)
+    {
+        Debug.Log("Attacking");
+        if (list.TryGetValue(message.GetUShort(), out Player player))
+        {
+            Debug.Log("Bool");
+            if (message.GetBool())
+            {
+                player.animationManager.Attacking();
+            }
+        }
+    }
 
     #endregion
     
