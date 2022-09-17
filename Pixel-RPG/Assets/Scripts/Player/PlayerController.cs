@@ -83,7 +83,6 @@ public class PlayerController : MonoBehaviour
 
     private void SendInput()
     {
-        Debug.Log("x");
         Message message = Message.Create(MessageSendMode.unreliable, ClientToServerID.input);
         message.AddBools(inputs, false);
         NetworkManager.Singleton.Client.Send(message);

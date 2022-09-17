@@ -30,6 +30,7 @@ public class Player : MonoBehaviour
     private void Start()
     {
         mainCamera = Camera.main;
+        
     }
 
     private void OnDestroy()
@@ -68,14 +69,14 @@ public class Player : MonoBehaviour
         {
             player = Instantiate(GameLogic.Singleton.LocalPlayerPrefab, position, Quaternion.identity).GetComponent<Player>();
             player.IsLocal = true;
-            player.header = Instantiate(GameLogic.Singleton.PlayerHeader, position + new Vector3(0,0.09f,0), Quaternion.identity).GetComponent<TextMesh>();
+            player.header = Instantiate(GameLogic.Singleton.PlayerHeader, position + new Vector3(0,0.3f,0), Quaternion.identity).GetComponent<TextMesh>();
             player.header.color = Color.green;
         }
         else
         {
             player = Instantiate(GameLogic.Singleton.PlayerPrefab, position, Quaternion.identity).GetComponent<Player>();
             player.IsLocal = false;
-            player.header = Instantiate(GameLogic.Singleton.PlayerHeader, position + new Vector3(0,0.09f,0), Quaternion.identity).GetComponent<TextMesh>();
+            player.header = Instantiate(GameLogic.Singleton.PlayerHeader, position + new Vector3(0,0.3f,0), Quaternion.identity).GetComponent<TextMesh>();
             //player.header.color = Color.yellow;
         }
         
@@ -126,10 +127,8 @@ public class Player : MonoBehaviour
     [MessageHandler((ushort)ServerToClientID.playerAttack)]
     private static void PlayerIsAttacking(Message message)
     {
-        Debug.Log("Attacking");
         if (list.TryGetValue(message.GetUShort(), out Player player))
         {
-            Debug.Log("Bool");
             if (message.GetBool())
             {
                 player.animationManager.Attacking();

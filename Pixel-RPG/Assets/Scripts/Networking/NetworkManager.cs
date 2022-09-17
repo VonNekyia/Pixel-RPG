@@ -13,6 +13,9 @@ public enum ServerToClientID : ushort
     playerMovement = 2,
     playerMessage = 3,
     playerAttack = 4,
+    enemySpawned = 5,
+    enemyMovement = 6,
+    enemyDied = 7,
 }
 
 public enum ClientToServerID : ushort
@@ -103,6 +106,10 @@ public class NetworkManager : MonoBehaviour
         HomeCanvas.Singleton.BackToMain();
         foreach (Player player in Player.list.Values)
             Destroy(player.gameObject);
+        foreach (Umbala umbala in EnemyHandler.list.Values)
+            Destroy(umbala.gameObject);
+            
         
+            
     }
 }
