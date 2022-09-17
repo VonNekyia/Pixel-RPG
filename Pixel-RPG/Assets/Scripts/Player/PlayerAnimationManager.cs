@@ -9,9 +9,8 @@ public class PlayerAnimationManager : MonoBehaviour
     
     [SerializeField] private Animator animator;
     [SerializeField] private float playerMoveSpeed;
-    private Vector3 lastPosition;
-    
-    
+
+
     public void AnimateBasedOnSpeed(Vector3 lastPosition, Vector3 newPosition)
     {
         float distanceMoved = Vector3.Distance(lastPosition, newPosition);

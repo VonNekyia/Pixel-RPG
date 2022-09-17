@@ -10,7 +10,8 @@ public class EnemyHandler : MonoBehaviour
     [SerializeField] private GameObject umbalaPrefab;
     
     public static Dictionary<ushort, Umbala> list = new Dictionary<ushort, Umbala>();
-
+    
+    
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.K))
@@ -36,6 +37,7 @@ public class EnemyHandler : MonoBehaviour
             Vector3 pos = message.GetVector3();
             umbala.Move(pos, umbala);
         }
+        
     }
 
     //private static int i;
@@ -44,7 +46,15 @@ public class EnemyHandler : MonoBehaviour
     {
         if (list.TryGetValue(message.GetUShort(), out Umbala umbala))
         {
-            umbala.animationManager.DefeatedTrigger();
+            bool state = message.GetBool();
+            if (state)
+            {
+                umbala.animationManager.DefeatedTrigger();
+            } else if (!state)
+            {
+                umbala.animationManager.DamagedTrigger();
+            }
+            
         }
     }
     
