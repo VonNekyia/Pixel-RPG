@@ -62,7 +62,7 @@ public class EnemyHandler : MonoBehaviour
     {
         //Umbala wird net zum umbala
         Umbala umbala = Instantiate(EnemyLogic.Singleton.UmbalaPrefab, position, Quaternion.identity).GetComponent<Umbala>();
-        umbala.header = Instantiate(GameLogic.Singleton.PlayerHeader, position + new Vector3(-0.145f,0.15f,0), Quaternion.identity).GetComponent<TextMesh>();
+        umbala.header = Instantiate(GameLogic.Singleton.PlayerHeader, position + new Vector3(0,0.15f,0), Quaternion.identity).GetComponent<TextMesh>();
         umbala.header.text = "Umbala";
         umbala.header.color = Color.red;
         umbala.header.transform.parent = umbala.transform;
