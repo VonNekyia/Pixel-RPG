@@ -106,8 +106,8 @@ public class NetworkManager : MonoBehaviour
         HomeCanvas.Singleton.BackToMain();
         foreach (Player player in Player.list.Values)
             Destroy(player.gameObject);
-        foreach (Umbala umbala in EnemyHandler.list.Values)
-            Destroy(umbala.gameObject);
+        foreach (Enemy enemy in EnemyHandler.list.Values)
+            Destroy(enemy.gameObject);
             
         
             

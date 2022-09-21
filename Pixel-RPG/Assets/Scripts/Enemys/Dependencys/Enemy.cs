@@ -5,20 +5,30 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour, IEnemy
 {
-    public ushort enemyID { get; set; }
+    public int enemyID { get; set; }
     public String enemyName { get; set; }
     public int livePoints { get; set; }
+    public TextMesh header { get; set; }
 
     public SpriteRenderer spriteRenderer;
+    public int type { get; set; }
 
-    private void Awake()
+    public EnemyAnimationManager animationManager;
+
+   private void Awake()
     {
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
+        animationManager = gameObject.GetComponent<EnemyAnimationManager>();
     }
 
-    public void Move(Vector3 newPosition, Umbala umbala)
+   private void OnDestroy()
+   {
+       EnemyHandler.list.Remove(enemyID);
+   }
+   
+    public void Move(Vector3 newPosition, Enemy enemy)
     {
-        Vector3 lastPosition = umbala.transform.position;
+        Vector3 lastPosition = enemy.transform.position;
         transform.position = newPosition;
 
         if (newPosition.x < lastPosition.x)
@@ -26,6 +36,6 @@ public class Enemy : MonoBehaviour, IEnemy
         if (newPosition.x > lastPosition.x)
             spriteRenderer.flipX = false;
 
-        umbala.animationManager.AnimateBasedOnSpeed(lastPosition, newPosition);
+        enemy.animationManager.AnimateBasedOnSpeed(lastPosition, newPosition);
     }
 }

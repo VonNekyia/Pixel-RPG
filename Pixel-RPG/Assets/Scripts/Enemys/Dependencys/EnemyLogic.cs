@@ -27,6 +27,8 @@ public class EnemyLogic : MonoBehaviour
     
 
     public GameObject UmbalaPrefab => umbalaPrefab;
+    public GameObject WolfPrefab => wolfPrefab;
+    public GameObject DeathPrefab => deathPrefab;
 
    
     
@@ -35,6 +37,8 @@ public class EnemyLogic : MonoBehaviour
 
     [Header("Enemy Prefabs")]
     [SerializeField] private GameObject umbalaPrefab;
+    [SerializeField] private GameObject wolfPrefab;
+    [SerializeField] private GameObject deathPrefab;
 
 
  
