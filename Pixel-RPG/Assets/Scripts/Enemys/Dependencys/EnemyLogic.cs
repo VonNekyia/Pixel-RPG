@@ -26,9 +26,10 @@ public class EnemyLogic : MonoBehaviour
     }
     
 
-    public GameObject UmbalaPrefab => umbalaPrefab;
+    public GameObject GoldenUmbalaPrefab => goldenUmbalaPrefab;
     public GameObject WolfPrefab => wolfPrefab;
     public GameObject DeathPrefab => deathPrefab;
+    public GameObject GreenUmbalaPrefab => greenUmbalaPrefab;
 
    
     
@@ -36,9 +37,10 @@ public class EnemyLogic : MonoBehaviour
     
 
     [Header("Enemy Prefabs")]
-    [SerializeField] private GameObject umbalaPrefab;
+    [SerializeField] private GameObject goldenUmbalaPrefab;
     [SerializeField] private GameObject wolfPrefab;
     [SerializeField] private GameObject deathPrefab;
+    [SerializeField] private GameObject greenUmbalaPrefab;
 
 
  

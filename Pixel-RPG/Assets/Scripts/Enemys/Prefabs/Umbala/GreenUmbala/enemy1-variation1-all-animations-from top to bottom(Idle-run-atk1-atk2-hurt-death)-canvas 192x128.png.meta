@@ -1,0 +1,1664 @@
+fileFormatVersion: 2
+guid: 57934b5d72466d145b633c8e1221cc36
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1acfd414f6413be4198e73d050f3fad2
+      internalID: -1233772982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 640
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0757db69ab6a664fba65bba39a6a041
+      internalID: 1890378563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a6206feb970b645b172ea41d55e7d2
+      internalID: 507198529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 640
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f9021c0dc1b624a812b79f651bb651
+      internalID: 1601826099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_4
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a347af3f4df94b42bc08bde280382fe
+      internalID: 291533407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_5
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 640
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d43430f07018d47bc44417dfa3ca77
+      internalID: 242065794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_6
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5323ffbdc13302f46bbe87bccb9b6527
+      internalID: -1208888753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_7
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 640
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57350a892f6fbbe4189622b249ebfd3f
+      internalID: -1663181830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe30bb5f7d3cc84ea91e0c37f020dba
+      internalID: 1529170871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 512
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f7a0f7d2909e049952ba8b8fd227ba
+      internalID: -1884870413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_10
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8fc93b9adc9304782c88ab0e8ef834
+      internalID: -1644060177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_11
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 512
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c2e19aed1ec9048ada144447ae51fa
+      internalID: 3903737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb83dd0b8154144fba06d560ad98fd3
+      internalID: 1823044423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_13
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 512
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d8e670b1b0bce4eb3ef4be1cf4f386
+      internalID: -377471566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_14
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722f690d80614a74b9324c5247462391
+      internalID: 2068516136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_15
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 512
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc1ac2fccaa3a6a4ab7da300487d42fe
+      internalID: 337070109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e78bc7bd732a2448715846bf0a2493
+      internalID: -466704759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41eb9cfc6f2e6924e998469e7ab6bf1b
+      internalID: -1352569757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_18
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1575e86efd27be2408056d6e6d878282
+      internalID: -464428348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_19
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 384
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7237e742cc8f5a74d8659fda8dca59df
+      internalID: -731794346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_20
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289e91f110862a843b76c7378280ac9b
+      internalID: 1082911444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_21
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 384
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee2f1cf01e8c15449d71434182c0c57
+      internalID: 2073230227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_22
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90bce11270feae4f82e8dfece5a219c
+      internalID: 979692054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_23
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 384
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff92df564affcf489f2e3ec7994d7cc
+      internalID: 940240516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_24
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2abe8ceedad9764d9daf3a93a6b9bf0
+      internalID: -1553183426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_25
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 384
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5718dbcbfdb49c441a18ec70a08d2b12
+      internalID: 80643969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_26
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 384
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c54ea18bc9e5447ba162e71a43c552
+      internalID: 597723909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_27
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 384
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f91fb6f4a8ee874d8e3f2d039d2d567
+      internalID: -1700097473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_28
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 384
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ab13f3b63092c4eaa1460cf5a3683a
+      internalID: 780242897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_29
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 384
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de91de0d9f87af943b5483152afd724b
+      internalID: 615694085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_30
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 384
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451bae4224502ef448194c0cf162eaea
+      internalID: -1118995107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_31
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 384
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44d10ed414397b48bf7b3ba4d3d1a9f
+      internalID: 2121606138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_32
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 384
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3a1b1a7baca5149b6a3643e58005dc
+      internalID: 1325978867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d95d59db3d7534aa358b07017b1b5e
+      internalID: 2041595552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_34
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5398ad3927b198549b5d1c3e7ac52309
+      internalID: 1365263201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_35
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664b06a601802cd46ac04ee7225c9173
+      internalID: -346203742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_36
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 256
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a29ab56615aa634ea2618969e5def5f
+      internalID: 235509389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_37
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd603273e9f384e4b82d19da29f0bd8c
+      internalID: 1190312168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_38
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 256
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1c8e6df82456c48ab27eec15c21454
+      internalID: -1354190004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_39
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd3c1479a2eb6e46b628152262c26fa
+      internalID: 1648805060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_40
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 256
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c607954d7a7224a95292ac2587ee3d
+      internalID: 1441122044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_41
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6ebb9f15b13664a986ea863ae4dff0
+      internalID: 601736057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_42
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 256
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f778c54d3e3fcbb4eb1381629bee11cc
+      internalID: 1885070639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_43
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 256
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6e4b8e58f32814cb8296b30478cb3f
+      internalID: 679549774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_44
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 256
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86282c4d83530c4389261ca397b464c
+      internalID: 880659938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_45
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 256
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb4ac587f42be54c8fe5b959bdc5f86
+      internalID: -2060128642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_46
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 256
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05bbe9d2caac424cb0ac2b67e720f28
+      internalID: 1051332048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f2774815b14ca4aabb22311d0c4e4e
+      internalID: -1236112068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_48
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a858d03f57849124eb7bff3e427caf66
+      internalID: -948758251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_49
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95a6b669dca44d4aa2a5b0666c3c1c0
+      internalID: 1262789678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_50
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c6ec1613c1dc240a6d117cd067d59f
+      internalID: -227283031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_51
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18ea331ddfa1e047b8cd02b5f36d5e7
+      internalID: -490253129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_52
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 128
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812d6ece581717a468a666e8f1aaa2f2
+      internalID: 568265100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_53
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa763de86e8acb48add2f150fd8c2b4
+      internalID: 1780877774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_54
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 128
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baedf305594a12c4592908cd2e67a074
+      internalID: 1332095449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_55
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285c7b524ce33dc43bbe6855894534da
+      internalID: 122875881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_56
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916c803179aa44447aefc7ad4c6158c1
+      internalID: -882471059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_57
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75cd53b5c400dd641b485983085bf395
+      internalID: 633335618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_58
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce298a1f8b98294dbeb5bb8edbdf3b4
+      internalID: -1791364003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_59
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8180889232dc9474bb6b6c24e9f46494
+      internalID: 898245002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_60
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dcfc58b0c18b1241a68eb2b796cc092
+      internalID: -1813038868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_61
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f2e27f9c87f654991b54df5ac36dfa
+      internalID: -1418106527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_62
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f4ff41a71ba164299c5b248a825f78
+      internalID: -409487986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_63
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f7d5dc2e45dcd44b356527b740535a
+      internalID: 150979853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_64
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820ec69f43c89894b9da095d62f20aa9
+      internalID: -1735007475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_65
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 0
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2970dd82c491cb9458b69b140b44c376
+      internalID: -319126945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas
+        192x128_66
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 158
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62eecdf1c4f083a4abe69a9e483b3678
+      internalID: -1405233916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_2: 507198529
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_21: 2073230227
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_55: 122875881
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_53: 1780877774
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_32: 1325978867
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_13: -377471566
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_46: 1051332048
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_29: 615694085
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_8: 1529170871
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_28: 780242897
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_43: 679549774
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_47: -1236112068
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_63: 150979853
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_27: -1700097473
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_45: -2060128642
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_26: 597723909
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_52: 568265100
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_61: -1418106527
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_31: 2121606138
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_0: -1233772982
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_30: -1118995107
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_65: -319126945
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_17: -1352569757
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_34: 1365263201
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_14: 2068516136
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_50: -227283031
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_10: -1644060177
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_62: -409487986
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_49: 1262789678
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_58: -1791364003
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_3: 1601826099
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_12: 1823044423
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_15: 337070109
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_38: -1354190004
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_42: 1885070639
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_54: 1332095449
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_35: -346203742
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_51: -490253129
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_57: 633335618
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_18: -464428348
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_23: 940240516
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_25: 80643969
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_64: -1735007475
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_48: -948758251
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_56: -882471059
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_39: 1648805060
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_24: -1553183426
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_60: -1813038868
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_11: 3903737
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_19: -731794346
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_22: 979692054
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_44: 880659938
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_20: 1082911444
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_1: 1890378563
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_16: -466704759
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_37: 1190312168
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_7: -1663181830
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_5: 242065794
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_33: 2041595552
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_59: 898245002
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_6: -1208888753
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_4: 291533407
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_66: -1405233916
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_40: 1441122044
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_41: 601736057
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_36: 235509389
+      enemy1-variation1-all-animations-from top to bottom(Idle-run-atk1-atk2-hurt-death)-canvas 192x128_9: -1884870413
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

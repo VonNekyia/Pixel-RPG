@@ -3,9 +3,10 @@ using RiptideNetworking;
 using UnityEngine;
 
 public enum EnemyTypeID : ushort {
-    Umbala = 1,
+    GoldenUmbala = 1,
     Wolf = 2,
     Death = 3,
+    GreenUmbala = 4,
 }
 
 public class EnemyHandler : MonoBehaviour {
@@ -43,20 +44,24 @@ public class EnemyHandler : MonoBehaviour {
     }
     
     public static void Spawn(int id, int type, Vector3 position) {
-        
+        Debug.Log("hi");
         GameObject enemyPrefab = type switch {
-            (int)EnemyTypeID.Umbala => EnemyLogic.Singleton.UmbalaPrefab,
+            (int)EnemyTypeID.GoldenUmbala => EnemyLogic.Singleton.GoldenUmbalaPrefab,
             (int)EnemyTypeID.Wolf => EnemyLogic.Singleton.WolfPrefab,
             (int)EnemyTypeID.Death => EnemyLogic.Singleton.DeathPrefab,
-            _ => EnemyLogic.Singleton.UmbalaPrefab
+            (int)EnemyTypeID.GreenUmbala => EnemyLogic.Singleton.GreenUmbalaPrefab,
+            _ => EnemyLogic.Singleton.GoldenUmbalaPrefab
         };
+        Debug.Log("hi2");
         string enemyName = type switch {
-            (int)EnemyTypeID.Umbala => "Umbala",
+            (int)EnemyTypeID.GoldenUmbala => "Golden Umbala",
             (int)EnemyTypeID.Wolf => "Wolf",
             (int)EnemyTypeID.Death => "Death",
+            (int)EnemyTypeID.GreenUmbala => "Green Umbala",
             _ => "ERROR name not found;"
         };
-        Enemy enemy = Instantiate(enemyPrefab, position, Quaternion.identity).GetComponent<Enemy>();
+        Debug.Log("hi3");
+        Enemy enemy = Instantiate(enemyPrefab, position, Quaternion.identity).GetComponent<Enemy>(); Debug.Log("hi4");
         enemy.header = Instantiate(GameLogic.Singleton.PlayerHeader, position + new Vector3(0,0.15f,0), Quaternion.identity).GetComponent<TextMesh>();
         enemy.header.text = enemyName;
         enemy.header.color = Color.red;
